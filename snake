@@ -26,10 +26,6 @@ namespace Snake
             DateTime tijd = DateTime.Now;
             DateTime tijd2 = DateTime.Now;
             string buttonpressed = "no";
-
-            // We only draw the border once. It doesn't change.
-            DrawBorder(width, height);
-
             while (true)
             {
                 ClearConsole(width, height);
